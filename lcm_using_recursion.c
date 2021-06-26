@@ -2,12 +2,11 @@
 #include <stdlib.h>
 int main()
 {
-	int i,j;
-	printf("Enter first number:\t");
-	scanf("%d",&i);
-	printf("Enter second number:\t");
-	scanf("%d",&j);
-	printf("LCM of two numbers is: %d",lcm(i,j));  
+	int i=12,j=30;
+	printf("Input first number:%d\n",i);
+	printf("Input second number:%d\n",j);
+	printf("\n*********************************************\n");
+	printf("\nLCM of %d and %d is: %d",i,j,lcm(i,j));  
 }
 int lcm(int a,int b)
 {
